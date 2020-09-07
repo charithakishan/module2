@@ -1,0 +1,91 @@
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+
+}
+*{
+			box-sizing: border-box;
+			margin: 0;
+			padding:0;
+		}
+		body{
+			font:'Oxygen', sans-serif;
+			font-size: 20px;
+			
+		}
+		.row{
+			width:100%;
+		}
+		@media(min-width: 992px){
+			.col-lg-4
+			{
+				width: calc(33.33% - 20px);
+				float:left;
+			
+
+			}
+			
+            }
+        /*.................medium devices only.........*/
+        @media(min-width: 768px) and (max-width: 991px){
+        	.col-md-6
+        	{
+        		width:calc(50% - 20px);
+				float:left;
+
+				
+
+			}
+			.col-md-12{
+				width: calc(100% - 20px);
+				float:left;
+			}
+                  }
+			h2{
+				font-size: 1.25em;
+				position: relative;
+				text-transform: capitalize;
+				top:0;
+				left: 75%;
+				border-left:1px solid black;
+				border-bottom:1px solid black;
+				width: 25%;
+				text-align: center;
+				overflow: hidden;
+
+			}
+		
+		p{
+
+		
+			text-align: justify;
+			padding: 5px;
+		}
+		section{
+			background-color: grey;
+			border:1px solid black;
+			margin:10px;
+		}
+		.content{
+			margin:10px;
+		}
+        #chicken h2{
+        	background-color: pink;
+
+        }
+        #beef h2{
+        	background-color: yellow;
+
+        }
+        #sushi h2{
+        	background-color: purple;
+        }
+        .clear{
+        	clear: both;
+        }
+
+		/*......simple responsive frame work.......*/
+
+		
+       
